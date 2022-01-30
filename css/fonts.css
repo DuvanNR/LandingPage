@@ -1,0 +1,97 @@
+/* Montserrat_Font */
+@font-face {
+  font-family: "Montserrat_Font_R";
+  src: url("../fonts/Montserrat_Font/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat_Font_L";
+  src: url("../fonts/Montserrat_Font/Montserrat-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat_Font_M";
+  src: url("../fonts/Montserrat_Font/Montserrat-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat_Font_B";
+  src: url("../fonts/Montserrat_Font/Montserrat-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Playfair_Display */
+@font-face {
+  font-family: "Playfair_Display_R";
+  src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair_Display_M";
+  src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair_Display_B";
+  src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ************************************************************** */
+
+.FontMR {
+  font-family: "Montserrat_Font_R", arial !important;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.FontML {
+  font-family: "Montserrat_Font_L", arial !important;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.FontMM {
+  font-family: "Montserrat_Font_M", arial !important;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.FontMB {
+  font-family: "Montserrat_Font_M", arial !important;
+  font-weight: bold;
+  font-style: bold;
+}
+
+.FontPR {
+  font-family: "Playfair_Display_R", arial !important;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.FontPM {
+  font-family: "Playfair_Display_M", arial !important;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.FontPB {
+  font-family: "Playfair_Display_B", arial !important;
+  font-weight: bold;
+  font-style: bold;
+}

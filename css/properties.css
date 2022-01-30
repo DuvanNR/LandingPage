@@ -1,0 +1,17 @@
+:root {
+  --color-primary: #000000;
+  --color-secondary: #f1f2f2;
+  --color-third: #ffffff;
+  --color-red: #e21f25;
+  --color-gray: #979fa4;
+  --color-gray-bold: #282930;
+  --color-gray-light: #817686;
+  --color-gray-bold-100: #676b67;
+  --color-gray-bold-200: #1e1e1e;
+  --img-dropdown: url("../img/svgs/dropdown_arrow.svg");
+  --img-logo: url("../img/svgs/Logo.svg");
+  --img-calendar: url("../img/svgs/calendar.svg");
+  --img-arrow: url("../img/svgs/arrow.svg");
+  --img-arrow-right: url("../img/svgs/Arrow-right.svg");
+  --img-arrow-left: url("../img/svgs/Arrow-left.svg");
+}
