@@ -646,6 +646,10 @@ footer p:last-child {
   footer {
     font-size: var(--size-font-12-sm);
   }
+
+  footer .container {
+    margin-bottom: 6em;
+  }
   /* ***********************************/
 
   /* FOOTER - MB */
