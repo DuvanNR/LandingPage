@@ -390,6 +390,57 @@ footer p:last-child {
 }
 /* CONTAINER - FLOAT (BOOK NOW) */
 
+/* Footer - MB */
+.footer-mobile {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+  text-align: center;
+  background-color: var(--color-secondary);
+  border-top: 4px solid var(--color-primary);
+  box-shadow: 0px -4px 13px 0px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px -4px 13px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px -4px 13px 0px rgba(0, 0, 0, 0.7);
+}
+
+.nav-footer-mobile {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-footer-mobile li {
+  flex-grow: 3;
+}
+
+.nav-footer-mobile li a {
+  text-decoration: none;
+  outline: none;
+  color: var(--color-gray-bold-200);
+  display: block;
+  padding: 40px 0;
+  font-size: 24px;
+  background: transparent;
+}
+
+.nav-footer-mobile hr {
+  border: none;
+  border-left: 1px solid var(--color-gray-bold-200);
+  margin-top: 1em;
+  height: 70px;
+  width: 1px;
+}
+
+.nav-footer-mobile li a:active {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
+
 /* ************************************************************** */
 /* QUERIES */
 @media (min-width: 992px) and (max-width: 1299px) {
@@ -595,6 +646,12 @@ footer p:last-child {
   /* FOOTER */
   footer {
     font-size: var(--size-font-12-sm);
+  }
+  /* ***********************************/
+
+  /* FOOTER - MB */
+  .footer-mobile {
+    display: block;
   }
   /* ***********************************/
 }
