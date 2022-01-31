@@ -423,8 +423,8 @@ footer p:last-child {
   outline: none;
   color: var(--color-gray-bold-200);
   display: block;
-  padding: 40px 0;
-  font-size: 24px;
+  padding: 20px 0;
+  font-size: 16px;
   background: transparent;
 }
 
@@ -432,7 +432,6 @@ footer p:last-child {
   border: none;
   border-left: 1px solid var(--color-gray-bold-200);
   margin-top: 1em;
-  height: 70px;
   width: 1px;
 }
 
