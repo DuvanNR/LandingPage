@@ -269,6 +269,7 @@ footer p:last-child {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   height: 15vh;
+  max-height: 7em;
   padding: 5px;
   right: 0;
   text-align: center;
