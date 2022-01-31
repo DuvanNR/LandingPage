@@ -14,4 +14,31 @@
   --img-arrow: url("../img/svgs/arrow.svg");
   --img-arrow-right: url("../img/svgs/Arrow-right.svg");
   --img-arrow-left: url("../img/svgs/Arrow-left.svg");
+
+  /* MEDIDAS FUENTE */
+  --size-font-p-sm: calc(0.45em + 1vw);
+  --size-font-p-md: calc(0.3em + 1vw);
+  --size-font-p-lg: calc(0em + 1vw);
+  /* --size-font-p-lg: calc(0.2em + 1vw); */
+
+  --size-font-12-sm: calc(0.4em + 1vw);
+  --size-font-12-md: calc(0.2em + 1vw);
+  --size-font-12-lg: calc(0.1em + 1vw);
+
+  --size-font-15-sm: calc(0.6em + 0.5vw);
+  --size-font-15-md: calc(0.5em + 0.5vw);
+  --size-font-15-lg: calc(0.1em + 0.8vw);
+
+  --size-font-17-sm: calc(0.8em + 0.5vw);
+  --size-font-17-md: calc(0.6em + 0.5vw);
+  --size-font-17-lg: calc(0.4em + 1vw);
+
+  --size-font-30-sm: calc(0.8em + 2vw);
+  --size-font-30-md: calc(0.5em + 2vw);
+  --size-font-30-lg: calc(0.95em + 1vw);
+  /* --size-font-30-lg: calc(0.2em + 2vw); */
+
+  --size-font-39-sm: calc(1.4em + 2vw);
+  --size-font-39-md: calc(1.2em + 2vw);
+  --size-font-39-lg: calc(0.8em + 2vw);
 }

@@ -14,7 +14,6 @@
         <div class="container-float">
             <a href="#open-content-float" class="btn-call-book-open FontMB">Book Now</a>
         </div>
-
         <div class="body-container-float" id="open-content-float">
             <div class="mask-body"></div>
             <div class="container-float" >
@@ -23,33 +22,27 @@
                     <a href="#"><i class="icon-close"></i></a>
                     <h1 class="text-white title-book FontPR">Book Now</h1>
                     <form>
-
                         <label class="text-white FontMB" >ARRIVAL DATE</label>
                         <div class="group-input">
                             <input type="text"  placeholder="Thrus, November" required>
                             <i class="icon-calendar"></i>
                         </div>
-
                         <label class="text-white FontMB" >DEPARTURE DATE</label>
                         <div class="group-input">
                             <input type="text"  placeholder="Sat, December 1" required>
                             <i class="icon-calendar"></i>
                         </div>
-
                         <label class="text-white FontMB">GUESTS</label>
                         <div class="row space-between">
                             <select required>
                                 <option value="">1 Adult</option>
                             </select>
-                            <select  >
-                                <option value="1">1 Child</option>
+                            <select required>
+                                <option value="">1 Child</option>
                             </select>
                         </div>
-
                         <p class="note-float FontPR">GET READY! You are about to get our best price. Guaranteed.</p>
-
                         <input class="btn-float FontPR" type="submit" value="LET’S GO">
-
                         <div class="FontMB footer-content-float">
                             <p>OR, BOOK YOUR GROUP</p>
                             <img src="./img/svgs/long_arrow.svg" alt="">
@@ -57,7 +50,6 @@
                     </form>
                 </section>
             </div>
-
         </div>
         <!-- Book Now -->
 
@@ -73,7 +65,7 @@
               <li id="slider-slide1"
                   tabindex="0"
                   class="slider-slide">
-                <img src="./img/main_slider/Slider1.jpg" alt="">
+                <div id="img-slider1"></div>
                 <div class="slider-snapper">
                   <a href="#slider-slide4"
                      class="slider-prev">back</a>
@@ -84,7 +76,7 @@
               <li id="slider-slide2"
                   tabindex="0"
                   class="slider-slide">
-                <img src="./img/main_slider/Slider2.jpg" alt="">
+                <div id="img-slider2"></div>
                 <div class="slider-snapper"></div>
                 <a href="#slider-slide1"
                    class="slider-prev">back</a>
@@ -94,7 +86,7 @@
               <li id="slider-slide3"
                   tabindex="0"
                   class="slider-slide">
-                <img src="./img/main_slider/Slider3.jpg" alt="">
+                <div id="img-slider3"></div>
                 <div class="slider-snapper"></div>
                 <a href="#slider-slide2"
                    class="slider-prev">back</a>
@@ -104,7 +96,7 @@
               <li id="slider-slide4"
                   tabindex="0"
                   class="slider-slide">
-                <img src="./img/main_slider/Slider4.jpg" alt="">
+                <div id="img-slider4"></div>
                 <div class="slider-snapper"></div>
                 <a href="#slider-slide3"
                    class="slider-prev">back</a>
@@ -120,9 +112,9 @@
 
     <main id="container-main">
 
-        <section class="row bg-primary">
+        <section class="row bg-primary" id="section-history">
             <div class="container">
-                <article class="card-03 article-history bg-primary">
+                <article class="discol-03 article-history bg-primary">
                     <hr class="solid">
                     <hgroup>
                         <h2 class="text-white FontPR">History in the making.</h2>
@@ -144,7 +136,7 @@
         <section class="row bg-secondary">
             <div class="container">
                 <article class="row space-between article-room">
-                    <section class="card-02 section-room">
+                    <section class="discol-02 section-room">
                         <hgroup>
                             <h2 class="FontMB">accommodations</h2>
                             <h3 class="FontMB">hollywood, meet industrial chic</h3>
@@ -152,8 +144,7 @@
                         <p class="FontMR">Lorem ipsum dolor sit amet, donec luctus vel, augue duis. Voluptas turpis, non vehicula sit turpis varius non ante, inventore consectetur. Donec luctus vel eu, augue non. Non vehicle sit turpis varius non ante, inventore consec.</p>
                         <button class="btn-room">VIEW ROOMS</button>
                     </section>
-                    <aside class="card-02 aside-room">
-                       <img src="./img/Room.jpg" alt="Img-Room">
+                    <aside class="discol-02 aside-room">
                     </aside>
                 </article>
             </div>
@@ -163,28 +154,28 @@
             <div class="container">
                 <h1 class="row title-events FontMM">this month’s most anticipated events</h1>
                 <section class="row section-events">
-                    <article class="card-01">
+                    <article class="discol-01">
                         <div class="date-float">
                             <p>8</p>
                             <p>NOV</p>
                         </div>
                         <img src="./img/event1.jpg" alt="Evento1">
                     </article>
-                    <article class="card-01">
+                    <article class="discol-01">
                         <div class="date-float">
                             <p>16</p>
                             <p>NOV</p>
                         </div>
                         <img src="./img/event2.jpg" alt="Evento2">
                     </article>
-                    <article class="card-01">
+                    <article class="discol-01">
                         <div class="date-float">
                             <p>2</p>
                             <p>NOV</p>
                         </div>
                         <img src="./img/event3.jpg" alt="Evento3">
                     </article>
-                    <article class="card-01">
+                    <article class="discol-01">
                         <div class="date-float">
                             <p>3</p>
                             <p>NOV</p>
@@ -201,8 +192,8 @@
     <footer class="bg-secondary row FontMR">
         <div class="container">
             <section class="row space-between">
-                <p class="card-02">390 Congress St. (at Congress & Exchange Streets), Portland, Maine  •  MAP &gt; </p>
-                <p class="card-02">(207) 653.9990  •  info@portlandpresshotel.com</p>
+                <p class="discol-02">390 Congress St. (at Congress & Exchange Streets), Portland, Maine  •  MAP &gt; </p>
+                <p class="discol-02">(207) 653.9990  •  info@portlandpresshotel.com</p>
             </section>
         </div>
     </footer>
